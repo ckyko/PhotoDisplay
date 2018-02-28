@@ -48,6 +48,7 @@ class ImageTestCase(TestCase):
 
         response = image(request)
         page = response.content.decode('utf-8')
+        
         self.assertIn(image_str, page)
         self.assertEqual(response.status_code, 200)
 
