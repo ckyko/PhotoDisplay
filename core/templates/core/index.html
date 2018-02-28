@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Photo Display</title>
+</head>
+<body>
+    <form action="/core/" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ image_form }}
+        <input type="submit" value="Submit" />
+    </form>
+        <!--<form action="/core/" method="post" enctype="multipart/form-data">-->
+            <!--{% csrf_token %}-->
+            <!--<input type="file" name="picture" accept="image/*">-->
+            <!--<input type="submit">-->
+        <!--</form>-->
+</body>
+</html>
