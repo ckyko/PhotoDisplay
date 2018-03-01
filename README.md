@@ -6,7 +6,7 @@
 #### URL:
 https://young-tundra-30187.herokuapp.com/
 
-####CI:
+#### CI:
 https://travis-ci.org/ckyko/PhotoDisplay
 
 
