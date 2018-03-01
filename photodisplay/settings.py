@@ -25,7 +25,10 @@ SECRET_KEY = 'e7n@xdiad3ndtcd3(zgp7$s_y&38c41-ap+m$y=^v%-!$d4j0%'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'young-tundra-30187.herokuapp.com',
+    '127.0.0.1',
+]
 
 
 # Application definition
