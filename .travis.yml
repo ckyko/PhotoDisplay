@@ -1,15 +1,12 @@
 language: python
 python:
-  - "3.5"
-# command to install dependencies
+- '3.5'
 install:
-  - pip install -r requirements.txt
-# command to run tests
+- pip install -r requirements.txt
 script:
-  - python manage.py test
-
+- python manage.py test
 deploy:
   provider: heroku
   api_key:
-    secure: "07b7ec83-87c7-4eaa-bf5f-6b4c5cdc8bb8"
+    secure: JLJGLSKOVJdMjRIbYjN0CNG5SkS+3VLqS8tUlyHlo44eTePVLiq/ZpTQCKCzVHRwV0AnCOSlIDfe/jS/ntidFW5/1skcbhb4me/8eG7dSw94r0v4btahcD/1BNMF2GO325IGZ3PV2QHFgaP0BnhZIlPPKtaZCRrpbgMYcPrZ0lyMpZTOK+KK4SCEvI9DT/mqWKselUHGm9AjeXg5aW0BnN4mQ1djySFdtuL4qJWdR2y2g4CaPNT1vMZX9sjwmGEDety5kG1gmrNhz7DaNKL0JlSyn1caY1d37mSJKIBRhTUyEcQm2pCQJFhcs15LK56434xKwGr0R1VurKfEJQ62vKxCzRkO00rUamkivGee3fnTdwDQKkn7+KtkwibrOy2umfQmcjYbLfxUB9yrrpMxUay2KeExWbljFB/to3gJ2SGP1VBY0cJH7dQHh2dDxUtGDnnz/+tMmlY+sRHdq7Thy6rgdKKdrbwiVZ01DmZvdgoEsk6nGDIKCeq1BzZGSzL5VvHv/pWx/1PaYHjp29hTa1XDZiMJG71odCQ0xP8CpbQMWdhCU2Bb79nZOu/udOX5N/a/zJ5SgL8KFGVr+DRu7kY2PBSiVuJ17neK9aSmH99BQ6G0g/SmM6kTfJ9oRS4HX76y/1tRXJK1+OtBLrCYep9yr370RuicuL8CVUb+Wbg=
   app: young-tundra-30187
